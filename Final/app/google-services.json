@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "424237420450",
+    "firebase_url": "https://mcapp-1529d.firebaseio.com",
+    "project_id": "mcapp-1529d",
+    "storage_bucket": "mcapp-1529d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424237420450:android:438a3f2305f393f85d6cfb",
+        "android_client_info": {
+          "package_name": "com.example.chaulk.mac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424237420450-dao85nphbg76bquqn3pt92daffr4ltid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chaulk.mac",
+            "certificate_hash": "e4fb85ce44a89c32512cbbafc06c847f17112524"
+          }
+        },
+        {
+          "client_id": "424237420450-mv1ovr9tjv2idmpu61vd9feqi2b2jqnk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPCQ133TJmbU1dqIcmxcbKGP0XM2RVH3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424237420450-mv1ovr9tjv2idmpu61vd9feqi2b2jqnk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

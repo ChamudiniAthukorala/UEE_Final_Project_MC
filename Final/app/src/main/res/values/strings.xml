@@ -1,0 +1,234 @@
+<resources>
+    <string name="app_name">Mac</string>
+
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgotpassword">Forgot Password ?</string>
+    <string name="register">Register</string>
+    <string name="personalinfo">My Personal Information</string>
+    <string name="salutation">Salutation</string>
+    <string name="name">Name</string>
+    <string name="phone">Contact Number</string>
+    <string name="dob">Date of Birth</string>
+    <string name="email">Email</string>
+    <string name="notification">Notification</string>
+    <string name="notifymessage">I would like to receive commercial <br /> promotions and new product information from McDonald\'s through email or SMS.</string>
+    <string name="title_activity_my_profile">MyProfile</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="salutation_prompt">Choose</string>
+    <string name="payment">Payment Card Details</string>
+    <string name="cardName">Card Type</string>
+    <string name="cardNumber">Card Number</string>
+    <string name="cvv">CVV</string>
+    <string name="expDate">Expire Date</string>
+    <string name="save">Save</string>
+    <string name="cart">Cart</string>
+    <string name="meal1">Spicy chicken footlong</string>
+    <string name="time1">Estimated Delivery Time 5.30</string>
+    <string name="yourOrder">Your Order</string>
+    <string name="addNew">Add New</string>
+    <string name="one">1</string>
+    <string name="edit">Edit</string>
+    <string name="deliveryDetails">Delivery Details</string>
+    <string name="requiredfields">* Required Fields</string>
+    <string name="City" />
+    <string name="city">City</string>
+    <string name="mainrd">Main Road</string>
+    <string name="subrd">Sub Road</string>
+    <string name="landmark">Landmark</string>
+    <string name="currentlocation">Current Location</string>
+    <string name="worklocation">Work Location</string>
+    <string name="company">Company Name</string>
+    <string name="depname">Department Name</string>
+    <string name="deliveryins">Delivery Instructions</string>
+    <string name="deliverytime">Delivery Time</string>
+    <string name="addPromo">Add Promo Code</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="price1">LKR420.00</string>
+    <string name="deliveryFee">Deliery Fee</string>
+    <string name="total">Total</string>
+    <string name="price2">LKR20.00</string>
+    <string name="price3">LKR500.00</string>
+    <string name="change">Change</string>
+    <string name="placeOrder">Place Order</string>
+    <string name="address1">SLIIT, New Kandy Road Malabe, Sri Lanka.</string>
+    <string name="about" />
+    <string name="aboutUs">About Us</string>
+    <string name="contactUs">Contact Us</string>
+    <string name="paymentDetails">Payement Details</string>
+    <string name="deliveryAddress">Delivery Address</string>
+
+    <string-array name="salutation_arrays">
+        <item>MR</item>
+        <item>MRS</item>
+        <item>MISS</item>
+        <item>DR</item>
+        <item>PROF</item>
+        <item>REV</item>
+    </string-array>
+    <string-array name="cardtype">
+        <item>Visa</item>
+        <item>Master</item>
+    </string-array>
+
+    <string name="abc">abc</string>
+    <string name="homedes">all the orders are in here</string>
+    <string name="searchdes">search what you want</string>
+    <string name="cartdes">cart</string>
+    <string name="odersdes">upcoming and past orders are here</string>
+    <string name="profiledes">you profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="personalinfo1">Personal Information</string>
+    <string name="tp">0712345678</string>
+    <string name="promotions">Promotions</string>
+    <string name="ala"><![CDATA[Ala Carte & value meals ]]></string>
+    <string name="orderNow">Order Now</string>
+    <string name="compro">Complete Profile</string>
+    <string name="meal">Happy Meal Beef</string>
+    <string name="pricelkr">LKR 500.00</string>
+    <string name="cardno">CARD .... .... .... 8289</string>
+    <string name="paid">Paid</string>
+    <string name="name1">Ashira Hiruth</string>
+    <string name="bulkval">#3453A</string>
+    <string name="bike">Bajaj CT 110</string>
+    <string name="AB">AB - 2547</string>
+    <string name="track">Track Order</string>
+    <string name="kitchen">Kitchen is preparing your Order</string>
+    <string name="onTheWay">On the Way</string>
+    <string name="delar">Delivery Arrived</string>
+    <string name="specialinst">Special Instructions</string>
+    <string name="add">+</string>
+    <string name="quantity">Quantity</string>
+    <string name="minus">-</string>
+    <string name="addCart">Add 1 to Cart  LKR. 60</string>
+    <string name="item">Mc Burger</string>
+    <string name="repwrd">Re-enter password</string>
+    <string name="msg">Password must be 8-10 characters with 1 numeric digit</string>
+    <string name="confirm">Confirm</string>
+    <string name="paswrdetails">Password Details</string>
+    <string name="submit">Submit</string>
+    <string name="resend">Re-send Code</string>
+    <string name="confirmcode">We have sent you a message with a confirmation code. Please enter the code to continue</string>
+    <string name="newpwd">New Password</string>
+    <string name="confirmpwd">Confirm New Password</string>
+    <string name="payoptions">Change Payment Method</string>
+    <string name="cash">Cash</string>
+    <string name="cardnum">....8289</string>
+    <string name="pastorders">Past Orders</string>
+    <string name="upcoming">Upcoming Orders</string>
+    <string name="viewmenu">View Menu</string>
+    <string name="orderCom">Order Completed</string>
+    <string name="dateOrder">Aug 14,2019 at 11.55am</string>
+    <string name="orderref">Order Ref - #80571</string>
+    <string name="sold">Sold Out</string>
+    <string name="del">Your delivery by Kasun</string>
+    <string name="totalPrice">Total LKR 500.00</string>
+    <string name="viewReceipt">View Receipt</string>
+    <string name="getHelp">Get Help</string>
+    <string name="reorder">Re-Order</string>
+    <string name="driverName">Wasantha Kumara</string>
+    <string name="status">Delivery Status - Pending</string>
+    <string name="Arrivaltime">Arrival Time - 6.00pm</string>
+    <string name="refOrder">Order Ref - #57982</string>
+    <string name="favorites">Favourite</string>
+    <string name="remove">Remove Item</string>
+    <string name="cartempty">Cart is Empty Please Make an Order</string>
+    <string name="aboutMC">The legend of McDonald\'s began in 1948 when Dick and Mac McDonald opened a drive-thru restaurant in San Bernardino, California. They built up quite a reputation for fast service and great tasting hamburgers and began the technical innovations to revolutionize the food service industry. Established in Desplaines, Illinois, Mr. Ray A. Kroc opened the first franchised McDonald\'s hamburger Restaurant. He took the technical innovations started by the brother and formulated the nationwide operating which led to the rapid expansion. Currently, McDonald\'s is one of Top 10 most valuable brands and is the leading global food service retailer with more than 36,000 local restaurants serving 69 million people in more than 100 countries each day. McDonald\'s Thailand\'s first restaurant was opened at Amarin Plaza in 1985 as the 35th country in the world serving the great taste of hamburger. McDonald\'s Thailand currently has 245 restaurants nationwide (As of June 2019) offering a range of convenience services to match with customers lifestyles. The service includes Dine-In, Drive-Thru, Dessert Center, McCafe, free Wi-Fi and eBook. There is also a 24-hour McDelivery Service at Call Center 1711 and some restaurants also offer 24-hour service to meet with customers demand.</string>
+    <string name="a1">The legend of McDonald\'s began in 1948 when Dick and Mac McDonald opened a drive-thru restaurant in San Bernardino, California. They built up quite a reputation for fast service and great tasting hamburgers and began the technical innovations to revolutionize the food service industry. Established in Desplaines, Illinois, Mr. Ray A. Kroc opened the first franchised McDonald\'s hamburger Restaurant. He took the technical innovations started by the brother and formulated the nationwide operating which led to the rapid expansion. Currently, McDonald\'s is one of Top 10 most valuable brands and is the leading global food service retailer with more than 36,000 local restaurants serving 69 million people in more than 100 countries each day.</string>
+    <string name="a3">McDonald\'s Thailand\'s first restaurant was opened at Amarin Plaza in 1985 as the 35th country in the world serving the great taste of hamburger. McDonald\'s Thailand currently has 245 restaurants nationwide (As of June 2019) offering a range of convenience services to match with customers lifestyles. The service includes Dine-In, Drive-Thru, Dessert Center, McCafe, free Wi-Fi and eBook. There is also a 24-hour McDelivery Service at Call Center 1711 and some restaurants also offer 24-hour service to meet with customers demand.</string>
+    <string name="message">Message</string>
+    <string name="menu">Menu</string>
+    <string name="yourOrderIsH">Your Order is Here</string>
+</resources>

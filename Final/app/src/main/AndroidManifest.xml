@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chaulk.mac">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--setup google api key for google map service-->
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key"/>
+
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home" />
+        <activity android:name=".Register" />
+        <activity android:name=".Forgot" />
+        <activity android:name=".Cart" />
+        <activity android:name=".DeliveryDetails" />
+        <activity android:name=".Profile" />
+        <activity android:name=".About" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".Search" />
+        <activity android:name=".Orders" />
+        <activity android:name=".Track" />
+        <activity android:name=".Map" />
+        <activity android:name=".UpdateOrder" />
+        <activity android:name=".Payment" />
+        <activity android:name=".ChangePaymentMethod" />
+        <activity android:name=".EditCartMenu" />
+        <activity android:name=".UpcomingOrders" />
+        <activity android:name=".EmptyCart" />
+        <activity android:name=".PastOrders"></activity>
+    </application>
+
+</manifest>

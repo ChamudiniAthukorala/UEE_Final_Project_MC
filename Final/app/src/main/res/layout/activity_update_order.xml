@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateOrder"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/updateOrderLabel"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/meal1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/updateOrderInstructionsLabel2"
+        app:layout_constraintEnd_toEndOf="@+id/updateOrderInsText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/updateOrderQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="158dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/quantity"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/UOAddtoCart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateOrderInsText" />
+
+    <TextView
+        android:id="@+id/updateOrderInstructionsLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/specialinst"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/updateOrderInsText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateOrderLabel" />
+
+    <EditText
+        android:id="@+id/updateOrderInsText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/updateOrderQuantity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateOrderInstructionsLabel2" />
+
+    <Button
+        android:id="@+id/UOadd"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="41dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginTop="312dp"
+        android:text="@string/add"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/UOAddtoCart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/UOquantityLevel"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/UOminus"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginStart="60dp"
+        android:text="@string/minus"
+        android:textSize="40sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/UOquantityLevel"
+        app:layout_constraintEnd_toStartOf="@+id/UOquantityLevel"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/UOquantityLevel"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="44dp"
+        android:text="@string/one"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/UOadd"
+        app:layout_constraintEnd_toStartOf="@+id/UOadd"
+        app:layout_constraintStart_toEndOf="@+id/UOminus" />
+
+    <Button
+        android:id="@+id/UOAddtoCart"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="74dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/green"
+        android:text="@string/addCart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UOadd" />
+
+    <ImageView
+        android:id="@+id/ohomeico"
+        android:layout_width="59dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:adjustViewBounds="false"
+        android:baselineAligned="false"
+        android:contentDescription="@string/homedes"
+        android:cropToPadding="false"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/osearchico"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UOAddtoCart"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/osearchico"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/searchdes"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ocartico"
+        app:layout_constraintStart_toEndOf="@+id/ohomeico"
+        app:layout_constraintTop_toBottomOf="@+id/UOAddtoCart"
+        app:layout_constraintVertical_bias="0.466"
+        app:srcCompat="@drawable/search" />
+
+    <ImageView
+        android:id="@+id/ocartico"
+        android:layout_width="46dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/cartdes"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/oorderico"
+        app:layout_constraintStart_toEndOf="@+id/osearchico"
+        app:layout_constraintTop_toBottomOf="@+id/UOAddtoCart"
+        app:srcCompat="@drawable/cart" />
+
+    <ImageView
+        android:id="@+id/oorderico"
+        android:layout_width="48dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/odersdes"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/oprofileico"
+        app:layout_constraintStart_toEndOf="@+id/ocartico"
+        app:layout_constraintTop_toBottomOf="@+id/UOAddtoCart"
+        app:srcCompat="@drawable/menu" />
+
+    <ImageView
+        android:id="@+id/oprofileico"
+        android:layout_width="40dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/profiledes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/oorderico"
+        app:layout_constraintTop_toBottomOf="@+id/UOAddtoCart"
+        app:layout_constraintVertical_bias="0.555"
+        app:srcCompat="@drawable/profile" />
+</android.support.constraint.ConstraintLayout>
